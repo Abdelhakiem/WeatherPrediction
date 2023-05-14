@@ -8,7 +8,7 @@ from xgboost import XGBRFClassifier
 
 
 class WeatherPredictionModel:
-    classifier = GaussianNB()
+    classifier = XGBRFClassifier()
     def __init__(self):
         # Importing the dataframe:
         self.__df = pd.read_csv("./input/seattle-weather.csv")
