@@ -42,19 +42,19 @@ weatherState=str(weatherModel.predict(data)[0])
 
 st.write('\n ## Predict weather:')
 if weatherState=='rain':
-    image = Image.open('C:/Users/INTEL/Desktop/DataCamp/WeatherPrediction/images/rain.png')
+    image = Image.open('./images/rain.png')
     st.image(image, caption='Weather will be rainy')
 elif weatherState=='snow':
-    image = Image.open('C:/Users/INTEL/Desktop/DataCamp/WeatherPrediction/images/snow.png')
+    image = Image.open('./images/snow.png')
     st.image(image, caption='Weather will be snow')
 elif  weatherState == 'sun':
-    image = Image.open('C:/Users/INTEL/Desktop/DataCamp/WeatherPrediction/images/sun.png')
+    image = Image.open('./images/sun.png')
     st.image(image, caption='Weather will be sunny')
 elif  weatherState == 'fog':
-    image = Image.open('C:/Users/INTEL/Desktop/DataCamp/WeatherPrediction/images/fog.png')
+    image = Image.open('./images/fog.png')
     st.image(image, caption='Weather will be fog')
 elif  weatherState == 'drizzle':
-    image = Image.open('C:/Users/INTEL/Desktop/DataCamp/WeatherPrediction/images/drizzle.png')
+    image = Image.open('./images/drizzle.png')
     st.image(image, caption='Weather will be drizzle')
 
 
