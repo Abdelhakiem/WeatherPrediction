@@ -11,7 +11,7 @@ class WeatherPredictionModel:
     classifier = GaussianNB()
     def __init__(self):
         # Importing the dataframe:
-        self.__df = pd.read_csv("C:/Users/INTEL/Desktop/DataCamp/WeatherPrediction/src/seattle-weather.csv")
+        self.__df = pd.read_csv("./input/seattle-weather.csv")
         self.__df.dropna(inplace=True)
         self.__df['date'] = pd.to_datetime(self.__df['date'])
         self.__featureEngineering()
