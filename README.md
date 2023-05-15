@@ -18,6 +18,8 @@ We built a data-driven web application using Streamlit, a Python web framework f
 
 ## Deployment
 Finally, we deployed the model on the Streamlit-sharing website. The deployed model can be accessed through this [LINK]( https://abdelhakiem-weatherprediction-srcwebapp-tt3025.streamlit.app/) .  The user interface is simple and intuitive, allowing users to easily input the necessary data and get the predicted weather state.
+![image](https://github.com/Abdelhakiem/WeatherPrediction/assets/73353343/dde50d22-4e14-43d4-84f5-10f462eacb8e)
+
 
 ## Conclusion
 In conclusion, this project involved creating a machine learning classification model to predict weather states. We explored the data, performed data cleaning and visualization, feature engineering, and model building. We also built a data-driven web application using Streamlit and deployed the model on Streamlit-sharing website. The final model achieved an accuracy of  84.7% and can be easily accessed through the [web application]( https://abdelhakiem-weatherprediction-srcwebapp-tt3025.streamlit.app/).
