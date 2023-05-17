@@ -4,11 +4,13 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 from sklearn.naive_bayes import GaussianNB
 from xgboost import XGBRFClassifier
+from sklearn.svm import SVC
 
 
 
 class WeatherPredictionModel:
-    classifier = GaussianNB()
+    classifier = SVC( random_state = 0)
+
     def __init__(self):
         # Importing the dataframe:
         self.__df = pd.read_csv("./input/seattle-weather.csv")
