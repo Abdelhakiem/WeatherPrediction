@@ -4,12 +4,12 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 from sklearn.naive_bayes import GaussianNB
 from xgboost import XGBRFClassifier
-from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
 
 
 
 class WeatherPredictionModel:
-    classifier = SVC( random_state = 0)
+    classifier =LogisticRegression(random_state = 0)
 
     def __init__(self):
         # Importing the dataframe:
